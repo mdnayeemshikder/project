@@ -20,7 +20,7 @@ body {
 }
 /* gloval spas  */
 main {
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 /* ==================================================
@@ -195,6 +195,7 @@ nav > div > a > button:hover {
   margin: 100px auto;
   display: grid;
   gap: 48px;
+  width: 1140px;
 }
 .target-single-cart {
   border-radius: 16px;
@@ -230,3 +231,84 @@ nav > div > a > button:hover {
   gap: 24px;
 }
 /* My Current Target part end */
+
+/* My Next Target part start */
+.Next-Target {
+  justify-items: center;
+  margin: 100px auto;
+  display: grid;
+  gap: 48px;
+  width: 1140px;
+}
+.next-target-single-cart {
+  display: flex;
+  gap: 24px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  align-items: center;
+}
+.next-target-cart-main {
+  display: grid;
+  gap: 24px;
+}
+/* My Next Target part end */
+
+/* I need Support part start */
+.support {
+  background-image: url(img/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 64px 48px;
+  justify-items: center;
+  border-radius: 16px;
+  display: grid;
+  gap: 24px;
+  width: 1040px;
+
+  margin: 0 auto 80px;
+}
+.suport-titel {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.suport-discripsion {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px;
+  width: 508px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+input[type="submit"] {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+/* I need Support part end */
+footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 0;
+}
