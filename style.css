@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+}
+/* gloval font  */
+body {
+  font-family: "Azeret Mono", monospace;
+}
+.all-section-discripsion {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.all-section-titel {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+/* gloval spas  */
+main {
+  width: 1440px;
+  margin: auto;
+}
+/* ==================================================
+==================================================
+================================================== */
+/* nav bar part start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px 150px;
+  align-items: center;
+}
+nav > div > h1 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+}
+
+nav > div > a > button {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border-radius: 8px;
+  padding: 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #fff;
+}
+nav > div > a > button:hover {
+  background: rgb(13, 19, 33);
+  color: #fff;
+  cursor: pointer;
+}
+/* nav bar part end */
+
+/* =================================================================================== */
+
+/* hero section start */
+.hero {
+  background-image: url(img/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 652px;
+  border-top: 2px dashed #cdcdcd;
+  border-bottom: 2px dashed #cdcdcd;
+  padding-bottom: 45px;
+}
+.hero-div {
+  width: 998px;
+  justify-items: center;
+  margin: 45px auto;
+  display: grid;
+  gap: 30px;
+}
+.hero-headline {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+.hero-btn:hover {
+  background: #fff;
+  color: rgb(13, 19, 33);
+  cursor: pointer;
+}
+.hero-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border-radius: 8px;
+  padding: 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: rgb(13, 19, 33);
+}
+.all-section-discripsion {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* hero section end */
+
+/* Why Web Development part start */
+.developmant-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 75px 150px;
+  padding: 80px 97px;
+  display: grid;
+  gap: 48px;
+}
+.sectio-top-content {
+  justify-items: center;
+  display: grid;
+  gap: 24px;
+  width: 852px;
+}
+
+.all-dev-card-perents {
+  display: grid;
+  gap: 32px;
+}
+
+.developer-single-card {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 48px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.right-card-content {
+  width: 477px;
+  display: grid;
+  gap: 25px;
+}
+.developr-card-titel {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.developer-btn {
+  border: 2px solid #565a64;
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #565a64;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.developer-single-m-card {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  justify-content: left;
+  gap: 48px;
+  padding: 48px;
+}
+
+/* My Inspiration part start */
+.inspriation {
+  justify-items: center;
+  display: grid;
+  gap: 48px;
+}
+.inspriration-img {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+/* My Inspiration part end */
+
+/* My Current Target part start */
+.Target {
+  justify-items: center;
+  margin: 100px auto;
+  display: grid;
+  gap: 48px;
+}
+.target-single-cart {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  display: grid;
+  gap: 24px;
+}
+.cart-titel {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.target-cart-button {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+  border: none;
+  background-color: rgba(255, 75, 30, 0);
+  padding: 0px;
+}
+.cart-discriopsion {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.target-cart-main {
+  display: flex;
+  gap: 24px;
+}
+/* My Current Target part end */
